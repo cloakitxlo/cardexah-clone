@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  @apply bg-[#0a0a0a] text-white font-sans;
+}
+
+/* Simple hero tweaks to look like the example */
+.hero-title { @apply text-5xl md:text-7xl font-bold text-white; }
+.hero-sub { @apply mt-4 text-gray-300 max-w-2xl; }
